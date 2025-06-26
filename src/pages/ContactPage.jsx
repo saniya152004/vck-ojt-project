@@ -4,10 +4,10 @@ const ContactPage = () => {
     return(
         <div>
             <Header/>
-            <div className="main">
-                <div className="main1">
+            <div className="m1">
+                <div className="m2">
                     <h1 style={{color:'blue'}}><center>Contact Us </center></h1> <br />
-            <       p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
+            <       p>We'd   love   to   hear   from   you!   Whether   you   have   questions   about   admissions,   programs,   or   campus   life,   our   team   is   here   to   help.</p>
 
                     <h2>General Enquires</h2>
             <       hr></hr>
@@ -30,7 +30,7 @@ const ContactPage = () => {
                     <hr></hr>
                     <p>[You can embed a Google Map here later using an iframe or a React map library.]</p>
 
-                    <a href="https://www.google.com/maps/@16.695243,74.1947017,12z?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D "> View on Googele Maps</a>
+                    <a href="https://www.google.com/maps/@16.695243,74.1947017,12z?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D "> View on Google Maps</a>
 
                     <h2>Send Us a Message</h2>
 

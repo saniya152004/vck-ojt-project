@@ -11,51 +11,58 @@ const CoursesPage = () => {
                     <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
 
                     <h2>Discover Campus Life</h2>
-                    <video  id="video"controls>
-                        <source src="/videos/vck.mp4" />
+                    <div className="v1">
+                        <video  id="video"controls>
+                            <source src="/videos/vck.mp4" />
 
-                    </video>
+                        </video>
+                        <p className="vck"><i>Get a glimpse of the vibrant academic and social life at Vivekanand College</i></p>
+
+                    </div>
+                    
+                       
+                    
 
 
                     <h2>Undergraduate Programs (UG)</h2>
                     
-                    <ul>
-                        <li><strong>Bachelor of Science (B.Sc.)</strong></li>
-                        <ul>
+                    <ul id="demo1">
+                        <li><strong><b>Bachelor of Science (B.Sc.) </b></strong></li>
+                        <ul id="a5">
                             <li>Computer Science (3 years)</li>
                             <li>Information Technology (3 years)</li>
                             <li>Biotechnology (3 years)</li>
                         </ul> 
                     </ul>
-                    <ul>
+                    <ul id="demo2">
                         <li><strong>Bachelor of Commerce (B.Com)</strong></li>
-                        <ul>
+                        <ul id="a2">
                             <li>Accounting & Finance (3 years)</li>
                             <li>Banking & Insurance (3 years)</li>
                         </ul>
                     </ul>
-                    <ul>
+                    <ul id="demo3">
                         <li><strong>Bachelor of Arts (B.A.)</strong></li>
-                        <ul>
+                        <ul id="a3">
                             <li>English Literature (3 years)</li>
                             <li>Psychology (3 years)</li>
                         </ul>
                     </ul>
 
                     <h2>Postgraduate Praograms (PG)</h2>
-                    <hr></hr>
-                    <ul>
+                    
+                    <ul id="demo4">
                         <li> <strong> Master of Science (M.Sc.)</strong></li>
 
-                        <ul>
+                        <ul id="a4">
                             <li>Computer Science (2 years)</li>
                             <li> Information Techonology (2 years)</li>
                         </ul>
                     </ul>
-                    <ul>
+                    <ul id="demo5">
                         <li><strong> Master of Commerce (M.Com)</strong> (2 years)</li>
                     </ul>
-                    <ul>
+                    <ul id="demo6">
 
                         <li><strong> Master of Arts (M.A)</strong> (2 years)</li>
                     </ul>
@@ -97,7 +104,7 @@ const CoursesPage = () => {
                     </table>
 
                     <h2>Specialized & Vocational Courses</h2>
-                    <hr></hr>
+                    
 
                     <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
 

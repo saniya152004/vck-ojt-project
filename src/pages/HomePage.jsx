@@ -15,23 +15,23 @@ const HomePage= () => {
             
             
             
-                    <img src="http://www.vivekanandcollege.ac.in/images/header-new.png"  className="image"/> 
+                    <img src="http://www.vivekanandcollege.ac.in/images/header-new.png"  className="image"/> <br />
                         <section className="content">
                 
                             <h1 style ={{fontSize:'60px'}}>Welcome to vivekanand  college! </h1>
                             <p >Your journey to exellence starts here.</p>
-                            <Link to="/admission"><button>Apply Now!</button></Link>
+                            <Link to="/admissions" ><button>Apply Now!</button></Link>
                         </section> <br />
             
             
             
-                    <p><strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.</p>
+                    <p><strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.</p> <br />
 
                     <p>At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.</p>
 
                     <h2>Why Choose Vivekanand College?</h2> 
                      
-                    <ul>
+                    <ul id="demo" >
                         <li><strong>Legacy of Excellence:</strong>Decades of commitment to quality education.</li>
                         <li><strong>Experienced Faculty:</strong> Learn from renowned experts and passionate educators.</li>
                         <li><strong>Modern Facilities:</strong>Well-equipped labs, expansive library, and comfortable campus.</li>
@@ -40,7 +40,7 @@ const HomePage= () => {
                     </ul>
 
                     <h2>Campus Life & Facilities</h2>
-                    <div id="img1">
+                    <div className="img1">
                     <img   src="https://vck-ojt.vercel.app/assets/students-studying-DbLGuwF_.jpeg"  className="im1"/>
                     <img   src="https://vck-ojt.vercel.app/assets/campus-life-Crkero7B.jpg" className="im2"/>
                     </div>

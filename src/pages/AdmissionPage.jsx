@@ -49,7 +49,7 @@ const AdmissionPage = () => {
 
                     <h2>Application Process</h2>
 
-                     <ol>
+                     <ol id="demo8">
                         <li><strong>Online Application: </strong>Fill out the application form available on our portal.</li>
                         <li><strong>Document Submission:</strong>Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
                         <li><strong>Entrance Exam (if appicable):</strong>Appear for the college's entrance examination.</li>
