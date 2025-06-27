@@ -36,7 +36,7 @@ const CoursesPage = () => {
                     </ul>
                     <ul id="demo2">
                         <li><strong>Bachelor of Commerce (B.Com)</strong></li>
-                        <ul id="a2">
+                        <ul id="a6">
                             <li>Accounting & Finance (3 years)</li>
                             <li>Banking & Insurance (3 years)</li>
                         </ul>
