@@ -112,7 +112,7 @@ const CoursesPage = () => {
                     <p><center>Have question about a specific course?</center></p> <br />
 
 
-                    <center> <Link to="/contact" > Inquire About Courses</Link></center>
+                    <center> <Link to="/contact" ><button id="c2">Inquires About Courses</button></Link></center>
                       
                 </div> 
             </div>       

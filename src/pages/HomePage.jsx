@@ -47,7 +47,7 @@ const HomePage= () => {
                     <p>Explore our vibrant campus and state-of-the-art facilities designed to enchance your learning experience and personal growth.</p>
 
                     <p><center>Ready to explore our courses?</center></p><br />
-                    <center><Link to="/courses" >Explore Courses</Link></center>
+                    <center><Link to="/courses" ><button id="c1">Explore Courses</button></Link></center>
                 </div>
 
             </div>  
